@@ -74,3 +74,17 @@ display: flex;
 justify-content: space-around;
 
 }
+
+.footer { 
+display: flex;
+justify-content: space-around;
+background:black;
+color : green 
+ }
+
+.informations { 
+display: flex;
+justify-content: space between;
+width: 400px;
+
+ }
