@@ -1,15 +1,12 @@
 body{text-align: center;font-family: 'Source Code Pro', monospace;
-background: background: #CAC531;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-; ;
+ background: white;  /* fallback for old browsers */
 }
 
 ul {text-align: left;}
 
 img {text-align: left;}
 
-.mynavbar{
+.my-navbar{
 	background: white;
 	display: flex;	
     justify-content: space-around;
@@ -26,28 +23,29 @@ img {text-align: left;}
 }
 
 
-h1{color: #FF6D60; font-family: font-family: 'Source Code Pro', monospace;}
+h1{color: darkred; font-family: font-family: 'Source Code Pro', monospace;}
 
 h2{color: burlywood;}
 
 .frame {
-	background: #539165;
-	border: solid 10px #FF6D60;
+	background: white;
+	border: solid 10px gold;
 	border-radius: 20px;
 	padding: 20px;
 	margin: 40px;
+	box-shadow: 10px 10px 10px;
 }
 
 .frame2 {
 	background: white;
-	border: solid 10px #FF6D60;
+	border: solid 10px gold;
 	border-radius: 20px;
 	margin: 40px;
 	padding: 20px;
 }
 .frame3 {
-	background: #539165;
-	border: solid 10px #FF6D60;
+	background: white;
+	border: solid 10px gold;
 	border-radius: 20px;
 	padding: 50px;
 	margin: 40px;
@@ -70,6 +68,7 @@ align-items: center;
 }
 
 .map {
+color : burlywood;
 display: flex;	
 justify-content: space-around;
 
@@ -78,13 +77,13 @@ justify-content: space-around;
 .footer { 
 display: flex;
 justify-content: space-around;
-background:black;
-color : green 
+background:white;
+color : darkred; 
  }
 
 .informations { 
-display: flex;
-justify-content: space between;
-width: 400px;
-
+background: white;
+display: flex;	
+justify-content: space-around;
+align-items: center;
  }
